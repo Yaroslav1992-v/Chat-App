@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700&display=swap&subset=latin-ext);
+@import "vars";
+@import "button";
+@import "membership";
+.tab-content {
+  padding-top: 30px;
+
+  .form-item {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.layout {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+
+  .content {
+    padding: 30px;
+    display: flex;
+    flex: 1;
+
+    // @import "sidebar";
+
+    // @import "chat";
+  }
+}
